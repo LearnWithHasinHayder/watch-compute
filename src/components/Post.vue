@@ -14,12 +14,12 @@ watchEffect(async () => {
 
 
 //async watch
-watch(postId, async (newVal, oldVal)=>{
-    post.title = "Loading...";
-    const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${newVal}`);
-    const json = await response.json();
-    post.title = json.title;
-},{immediate: true})
+// watch(postId, async (newVal, oldVal)=>{
+//     post.title = "Loading...";
+//     const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${newVal}`);
+//     const json = await response.json();
+//     post.title = json.title;
+// },{immediate: true})
 
 // watch(postId, (newVal, oldVal)=>{
 //     post.title = "Loading...";
