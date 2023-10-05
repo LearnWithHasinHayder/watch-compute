@@ -1,9 +1,10 @@
 <script setup>
 import Fruits from './components/Fruits.vue';
+import Post from './components/Post.vue';
 </script>
 
 <template>
-<Fruits/>
+<Post/>
 </template>
 
 <style scoped>
